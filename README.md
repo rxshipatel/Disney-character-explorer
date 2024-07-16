@@ -5,7 +5,15 @@ Welcome to the Disney Character Explorer project! This interactive web applicati
 Features
 -
 -search any character by its name.
+
 -get a list of all characters in a specific movie or a TV show.
+
 -a beautiful UI
+
+#
+How to Run
+-clone the repo locally.
+
+-run the index.html file and youre good to go :)
 
 

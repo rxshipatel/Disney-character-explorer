@@ -1,0 +1,44 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Error Message Styles */
+.error-message {
+    @apply bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4;
+}
+
+.error-message strong {
+    @apply font-bold;
+}
+
+.error-message span {
+    @apply block sm:inline;
+}
+
+/* More Info Button Styles */
+.more-info-btn {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-200 ease-in-out;
+}
+
+/* Character Card Styles */
+.character {
+    @apply bg-white border border-gray-200 rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105 flex flex-col items-center text-center;
+}
+
+.character img {
+    @apply w-32 h-32 object-cover rounded-full mb-4 shadow-lg;
+}
+
+.character h2 {
+    @apply text-2xl font-bold text-gray-800 mb-2;
+}
+
+.character p {
+    @apply text-gray-600 mb-2;
+}
+
+/* Loading Spinner */
+.spinner {
+    @apply border-t-4 border-blue-500 border-solid rounded-full animate-spin h-8 w-8 mx-auto mb-4;
+}

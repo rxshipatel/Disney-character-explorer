@@ -1,2 +1,3 @@
 # Disney-character-explorer
-COMP2707 Final Projecr
+COMP2707 Final Project
+

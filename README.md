@@ -10,8 +10,9 @@ Features
 
 -a beautiful UI
 
-#
+
 How to Run
+-
 -clone the repo locally.
 
 -run the index.html file and youre good to go :)
